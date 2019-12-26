@@ -76,6 +76,7 @@ class Items{
 	void printBill(){
 			cout<<"----------------------------------------------------------";
 			cout<<"\nTotal bill is : "<<sum<<endl;
+		        cout<<"Thank You Please Visit Again";
 			
 	}
 };
