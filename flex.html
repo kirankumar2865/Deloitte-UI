@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            using flex
+        </title>
+        <style>
+        .container{
+            display: flex;
+        }
+        .red{
+            background:orangered;
+            flex-grow: 1000;
+            display: flex;
+            flex-direction: column;
+        }
+        .green{
+            background: yellowgreen;
+        }
+        .blue{
+            background: steelblue;
+            width: 40vw;
+        }
+        .container > div{
+            font-size: 5vw;
+            padding: .5em;
+            color: white;
+        }
+            </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="red">1
+             <div class="blue">1b</div>
+            </div>
+            <div class="green">2
+                
+            </div>
+            <div class="blue">3</div>
+        </div>
+    </body>
+</html>

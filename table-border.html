@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            display: grid;
+            margin: 0px;
+            grid-template-areas: "header header header"
+                                  "nav article sidead"
+                                  "footer footer footer";
+            grid-template-rows: 60px 1fr 60px;
+            grid-template-columns:20% 1fr 15%;
+            grid-gap: 10px;
+            height: 100vh;
+        }
+        header,footer,nav,article,aside{
+            padding: 20px;
+            background-color: gold;
+            text-align: center;
+        }
+        #header{
+            grid-area: header;
+        }
+        #nav{
+            grid-area: nav;
+        }
+        #mainarticle{
+            grid-area: article;
+        }
+        #aside{
+            grid-area: sidead;
+        }
+        #footer{
+            grid-area: footer;
+        }
+    </style>
+
+    <title>table borders</title>
+</head>
+<body>
+    <header id="header"> Header</header>
+    <nav id="nav">mainnav</nav>
+    <article id="mainarticle">Main Article
+    </article>
+    <aside id="aside">aside for adv</aside>
+    <footer id="footer"> Footer</footer>
+</body>
+</html>

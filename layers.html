@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>using layers</title>
+        <style>
+        div{
+            width:80px;
+            height: 100px;
+            position: relative;
+        }
+        .infront{
+            background-color: brown;
+            top: 10px;
+            left: 80px;
+            z-index: 0;
+            opacity: 1;
+        }
+        .behind{
+            background-color: chartreuse;
+            top: -30px;
+            left: 40px;
+            z-index: 1;
+            opacity: 0.6;
+        }
+        .behind1{
+            background-color: green;
+            top: -100px;
+            left: 100px;
+            z-index: 2;
+            opacity: 0.1;
+        }
+
+        
+        
+        </style>
+    </head>
+    <body>
+        <div class="infront"></div>
+        <div class="behind"></div>
+        <div class="behind1"></div>
+    </body>
+</html>

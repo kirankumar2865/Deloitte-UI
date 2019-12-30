@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> using overflow<title>
+<style>
+div{
+    width:150px;
+    height: 150px;
+    border: 1px solid #cccccc;
+    
+}
+div.scroll
+{
+    overflow: scroll;
+}
+div.hidden{
+    overflow: hidden;
+}
+div.visible{
+    overflow: visible;
+}
+div.auto{
+    overflow: auto;
+}
+</style>
+</head>
+<body>
+<h1>Playwith the size of the div boxes to se how it works</h1>
+<h2>overflow :scroll</h2>
+<p> the overflowing content is clipped,jst like hidden,but provides a </p>
+<div class="scroll">
+    you can view thre ovewrflowed cintent using scrillbar.
+    you can view the overflowed content using scrollbar.
+    you cam view the overfloiwed content using scrollbar.
+    you can view the overflowed content using scrollbar.
+    you can view the overfflowed content using scrollbar.
+    </div>
+    <h2>overflow:hidden</h2>
+    <p>the overflowing content is clipped,jst like hidden,but provides a</p>
+    <div class="hidden">
+        you can view thre ovewrflowed cintent using scrillbar.
+        you can view the overflowed content using scrollbar.
+        you cam view the overfloiwed content using scrollbar.
+        you can view the overflowed content using scrollbar.
+        you can view the overfflowed content using scrollbar.
+    </div>
+</body>
+</html>
